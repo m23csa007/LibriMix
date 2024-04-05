@@ -31,5 +31,5 @@ for n_src in 2; do
     --n_src $n_src \
     --freqs 8k 16k \
     --modes min max \
-    --types mix_clean mix_both mix_single
+    --types mix_clean 
 done
