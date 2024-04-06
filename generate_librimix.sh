@@ -13,7 +13,7 @@ librimix_outdir="${storage_dir}"
 python_path=python
 
 # Generate LibriMix dataset for 2 speakers
-metadata_dir=metadata/Libri2Mix
+metadata_dir=metadata/myLibri2Mix
 "$python_path" scripts/create_librimix_from_metadata.py --librispeech_dir "$librispeech_dir" \
     --wham_dir "$wham_dir" \
     --metadata_dir "$metadata_dir" \
