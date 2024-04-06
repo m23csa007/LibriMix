@@ -19,6 +19,6 @@ metadata_dir=metadata/myLibri2Mix
     --metadata_dir "$metadata_dir" \
     --librimix_outdir "$librimix_outdir" \
     --n_src 2 \
-    --freqs 8k 16k \
+    --freqs 8k \
     --modes min max \
     --types mix_clean mix_both mix_single
